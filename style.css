@@ -30,11 +30,13 @@ main {
 }
 .first-image {
   width: 80%;
+  max-width: 29rem;
   position: absolute;
   top: -140px;
 }
 .second-image {
   width: 80%;
+  max-width: 29.8rem;
   position: absolute;
   top: -40px;
 }
@@ -98,7 +100,7 @@ main {
 @media (min-width: 809px) {
   main {
     min-height: 100vh;
-    padding: 30% 10%;
+    padding: 15rem 10rem 1rem 10rem;
   }
   .full {
     display: flex;
